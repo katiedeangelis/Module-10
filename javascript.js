@@ -34,8 +34,16 @@ document.getElementById("button4").addEventListener("click", function(){
 	
 });
 
-// when resent button is clicked...
+// when green border button is clicked...
 document.getElementById("button5").addEventListener("click", function(){
+
+    //create a green border around the box.
+    document.getElementById("box").style.border = "25px solid green";
+
+});
+
+// when reset button is clicked...
+document.getElementById("button6").addEventListener("click", function(){
 
 	//make the box orange and regular size.
     document.getElementById("box").style.height = "150px";
@@ -45,5 +53,7 @@ document.getElementById("button5").addEventListener("click", function(){
     document.getElementById("box").style.backgroundColor = "orange";
 
     document.getElementById("box").style.opacity = "1.0";
+
+    document.getElementById("box").style.border = "none";
 
 });
