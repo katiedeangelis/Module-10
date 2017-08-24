@@ -24,8 +24,18 @@ document.getElementById("button3").addEventListener("click", function(){
 
 });
 
-// when resent button is clicked...
+// when fade button is clicked...
 document.getElementById("button4").addEventListener("click", function(){
+
+  //decrease the size of the box.
+    document.getElementById("box").style.height = "50px";
+
+    document.getElementById("box").style.width = "50px";
+	
+});
+
+// when resent button is clicked...
+document.getElementById("button5").addEventListener("click", function(){
 
 	//make the box orange and regular size.
     document.getElementById("box").style.height = "150px";
